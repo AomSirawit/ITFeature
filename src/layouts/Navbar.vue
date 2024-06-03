@@ -5,7 +5,7 @@
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
-      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <a href="#home" v-smooth-scroll class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="../assets/logo2.png" class="h-10 w-10" alt="logo" />
       </a>
       <button
@@ -38,7 +38,7 @@
         >
           <li>
             <a
-              href="#"
+              href="#home" v-smooth-scroll
               class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-yellow-700 md:dark:text-yellow-500 dark:bg-yellow-600 md:dark:bg-transparent hover:text-yellow-500"
               aria-current="page"
               >Home</a
@@ -46,21 +46,21 @@
           </li>
           <li>
             <a
-              href="#"
+              href="#last" v-smooth-scroll
               class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-yellow-700 dark:hover:text-white md:dark:hover:bg-transparent hover:text-yellow-500"
               >Latest Upload</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#blog" v-smooth-scroll
               class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yello-700 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-700 dark:hover:text-white md:dark:hover:bg-transparent hover:text-yellow-500"
               >Blog</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#contact" v-smooth-scroll
               class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-yellow-700 dark:hover:text-white md:dark:hover:bg-transparent hover:text-yellow-500"
               >Contact</a
             >

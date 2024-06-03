@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="h-screen flex flex-col items-center justify-center bg-gray-800">
+  <div class="h-screen flex flex-col items-center justify-center bg-gray-800" id="blog">
     <div class="text-center text-5xl font-semibold mb-5 text-white">
       <h1>Blog</h1>
     </div>
